@@ -584,18 +584,15 @@ footer {
 }
 #fname{
     color: #000;
-    border-radius: 10px;
-    border: 1px solid red;       
+    border: 1px solid black;       
 }
 #email{
     color: #000;
-    border-radius: 10px;
-    border: 1px solid red;   
+    border: 1px solid black;   
 }
 #message{
     color: #000;
-    border-radius: 10px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .btn-1{
     border: 2px solid black;
@@ -1133,3 +1130,71 @@ h1 {
     }
     
 }
+
+/*--------------- shop ------------------- */
+h4 {
+    color: #000;
+    font-weight: bolder;
+}
+
+main {
+    padding: 2rem;
+}
+
+.product-details2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; /* Change to a vertical layout on small screens */
+    align-items: center; /* Center content on small screens */
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 0.5px;
+    width: 100%; /* Full width on small screens */
+}
+
+.sold-by {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on small screens */
+    align-items: center; /* Center content on small screens */
+    text-align: center; /* Center text on small screens */
+}
+
+.sold-by img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 0; /* Remove margin for small screens */
+    margin-bottom: 1rem; /* Add margin below the image on small screens */
+}
+
+.company-info2 {
+    flex: 1;
+}
+
+.company-info2 h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.view-shop-btn2 {
+    border: 1px solid brown;
+    color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+    margin-top: 1rem; /* Add margin above the button on small screens */
+}
+
+.additional-info2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+    justify-content: center; /* Center content on small screens */
+}
+
+.ratings2, .followers2, .products2 {
+    margin: 0.5rem; /* Add some spacing around each info block on small screens */
+}
+
+
+
+
